@@ -1,0 +1,40 @@
+body {
+    display: flex;
+    justify-content: space-around;
+}
+
+section {
+    width: 45%; 
+    margin: 20px;
+    padding: 15px;
+    border-radius: 8px;
+}
+
+section:nth-child(1) {
+    border: 1px solid #ddd;
+    color: aliceblue;
+    background-color: #888888;
+}
+
+section:nth-child(2) {
+    border: 2px solid #ff5733; 
+    background-color: lightblue;
+    box-shadow: 3px 3px 5px #888888; 
+}
+
+section:nth-child(2) button {
+    background-color: #FF6347;
+    color: black;
+    float: right;
+}
+
+button {
+    margin-top: 15px; 
+    padding: 10px 16px; 
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    float: right;
+}
